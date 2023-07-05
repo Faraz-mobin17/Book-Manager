@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#book-list li {
+  background: #111;
+  margin-top: 10px;
+  padding: 10px;
+  list-style: none;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  transition: 0.3s ease;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+  transform: scale(1);
+  perspective: 200px;
+}
+#book-list li:hover {
+  border-color: #535bf2;
+  cursor: pointer;
+  transform: scale(1.02);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.container {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+label {
+  font-size: 22px;
+}
+
+.btn {
+  margin-left: 20px;
+  font-size: 12px;
+}
